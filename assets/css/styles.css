@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(221, 220, 238);
+}
+.contenedorPadre{
+    display: flex;
+    justify-content: center;
+      
+} 
+.contenedorHijo { 
+    background-color: aliceblue;
+    box-sizing: border-box;
+    border: 2px solid cornsilk;
+    padding: 10px;
+    margin: 55px;
+    width: 500px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.titulo{
+    font-size: 20px;
+}
+.actividades{
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.imagen {
+    background: #85b7b9;
+    margin: 20px 0px;
+    height: 200px;
+    width: 340px;
+}
+
+#descripcion{
+    background-color:white;
+    border: 1px solid rgb(199, 208, 216);
+    padding: 10px;
+    text-align: start;
+}  
+
+#imgActiva{
+    margin-left: 30px;
+    background-image: url("../img/ferry.jpg");
+    background-size: cover;
+}
+.textoImg{
+    color: white;
+}
+.btn{
+    background-color: rgb(241, 234, 225);
+}
